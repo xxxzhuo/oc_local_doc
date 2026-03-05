@@ -1,0 +1,48 @@
+# Secrets and credentials
+*.secret
+.env
+.env.local
+.env.production
+*.key
+*.pem
+credentials.json
+auth-profiles.json
+
+# OpenClaw configs (may contain secrets)
+openclaw.json
+config.json
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build output
+dist/
+build/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Large files (>50MB)
+*.pdf
+*.zip
+*.tar.gz
+*.dmg
+*.iso
+
+# Temporary files
+tmp/
+temp/
+*.tmp
